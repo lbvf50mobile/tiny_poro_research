@@ -1,24 +1,15 @@
-# README
+# Research about OBJECTS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I been wondering  how do **rails** wield with objects.
 
-Things you may want to cover:
+* Do controller object created on every request?
 
-* Ruby version
+* Do it created on every request in different environments?
 
-* System dependencies
+And I created this tiny project. So what do I got.
 
-* Configuration
+* On **develoment** Rails.env controller object creates on every request.
 
-* Database creation
+* On **development** env class variables exists all time the servers works.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* the same with **production** env
